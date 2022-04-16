@@ -1,0 +1,27 @@
+$fontFamilyAvenir: 'AvenirNextCyr-Medium';
+$fontFamilyOpen: 'Open24DisplaySt';
+$fontFamilyCyberfall: 'Cyberfall';
+
+@font-face {
+  font-family: $fontFamilyAvenir;
+  src: url('../fonts/Avenir/AvenirNextCyr-Medium.ttf') format('truetype'),
+    url('../fonts/Avenir/AvenirNextCyr-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $fontFamilyOpen;
+  src: url('../fonts/open-24/Open24DisplaySt.ttf') format('truetype'),
+    url('../fonts/open-24/Open24DisplaySt.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $fontFamilyCyberfall;
+  src: url('../fonts//cyber-fall/Cyberfall.woff') format('truetype'),
+    url('../fonts//cyber-fall/Cyberfall.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
